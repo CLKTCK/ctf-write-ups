@@ -1,7 +1,7 @@
 # Power
-by katipuzer0
+(by [@katipuzer0](https://twitter.com/katipuzer0))
 
-In this problem, we are given an encrypted file and some hints on the 
+In this [problem](./description.txt), we are given an [encrypted file](./the_power_egg.enc) and some hints on the 
 type of encryption as well as key format. We are also given the hash of the key.
 
 The first challenge is obtaining the key. We start with finding the type of 
@@ -16,10 +16,10 @@ specific format of the key. Our solution therefore is to generate a set of
 candidate keys based on the format and check if the md5 of any of the candidate 
 keys matches the given hash. 
 
-I wrote a simple a Python 3 code, [brute.py](./brute.py), to do this. 
+I wrote a simple Python 3 code, [brute.py](./brute.py), to do this. 
 
 The inputs will be the name of the goons of rootcon, [goons.txt](goons.txt), and a list of colors, [wikicolorslower.txt](wikicolorslower.txt). The goons names 
-were obtained from rootcon website. The colors list was obtained [here](https://github.com/k-kawakami/colorfulnet/blob/master/example_data/wikipedia-list-of-colors.txt) and converted to lowercase. Some colors with non-ASCII characters were also removed. The year range used is from 1800 to 2500.
+were obtained from [rootcon's website](https://www.rootcon.org/html/about/goons). The colors list was obtained [here](https://github.com/k-kawakami/colorfulnet/blob/master/example_data/wikipedia-list-of-colors.txt) and converted to lowercase. Some colors with non-ASCII characters were also removed. The year range used is from 1800 to 2500.
 
 Below is the sample run.
 
