@@ -1,2 +1,2 @@
 # ctf-writeups
-Description of how to solve some CTF problems
+Solutions to some CTF problems
