@@ -1,0 +1,23 @@
+MISSION BRIEFING FOR EGGSHIELD AGENT:
+
+Lucy is an avid fan of ROOTCON and is also an agent of Eggshield.
+
+She was tasked to protect the Power Egg to protect it from thieves who would use it for evil purposes.
+
+Our insiders from the multiverse were informed that she encrypted the data about the Power Egg using Advanced Earth Shenanigans.
+
+They also told us the pattern of the password she used; composed of the following:
+    a year
+    her favorite ROOTCON Goon
+    her favorite color (which is quite unique!)
+
+For example:
+    2020-Methadone-teal
+
+Moreover, they also acquired the hash of Lucy's password. See below:
+    34d5cf6ecc220ab4c31d90f41f07c9a1
+
+That's all we can give you.
+
+Good luck!
+-Eggshield
