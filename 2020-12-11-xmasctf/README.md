@@ -2,7 +2,7 @@
 
 [CTFtime](https://ctftime.org/event/1197)
 
-**Team**: boberoo(MVP), [@katipuzer0](https://twitter.com/katipuzer0), Junie Boi
+**Team**: bobschiffer (MVP), katipuzer0, junnieb0i
 
 ### Table of contents
 
