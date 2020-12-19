@@ -2,7 +2,7 @@
 
 **Category**: Web
 
-Submitted by: [@katipuzer0](https://twitter.com/katipuzer0)
+Submitted by: katipuzer0
 
 ### Overview
 
@@ -33,13 +33,13 @@ if(strpos($p1, 'e') === false && strpos($p2, 'e') === false  && strlen($p1) === 
 ```
 
 ### Approach
-To get the flag, we need to review some of the interesting [properties](https://medium.com/@Asm0d3us/part-1-php-tricks-in-web-ctf-challenges-e1981475b3e4) of PHP's comparison operators then choose the correct values for `param1` and `param2`. We also note the the second parameter of the `strpos()` function is case-sensitive.
+To get the flag, we need to review some of the interesting [properties](https://medium.com/@Asm0d3us/part-1-php-tricks-in-web-ctf-challenges-e1981475b3e4) of PHP's comparison operators then choose the correct values for `param1` and `param2`. We also checked that the second parameter of the `strpos()` function is case-sensitive.
 
 ### Exploit
 ```
 http://challs.xmas.htsp.ro:3000/?param1=100&param2=1E2
 ```
-The values of param1 and param2 satisfy the conditions: 100=1E2=1x10^2
+The values of `param1` and `param2` satisfy the conditions: `100 = 1E2 = 1x10^2`
 
 ### Flag
 `X-MAS{s0_php_m4ny_skillz-69acb43810ed4c42}`
