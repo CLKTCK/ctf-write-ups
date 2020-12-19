@@ -33,7 +33,7 @@ if(strpos($p1, 'e') === false && strpos($p2, 'e') === false  && strlen($p1) === 
 ```
 
 ### Approach
-To get the flag, we need to review some of the interesting [properties](https://medium.com/@Asm0d3us/part-1-php-tricks-in-web-ctf-challenges-e1981475b3e4) of PHP's comparison operators then choose the correct values for `param1` and `param2`. We also note the the second parameter of the `strpos()` function is case-sensitive.
+To get the flag, we need to review some of the interesting [properties](https://medium.com/@Asm0d3us/part-1-php-tricks-in-web-ctf-challenges-e1981475b3e4) of PHP's comparison operators then choose the correct values for `param1` and `param2`. We also checked that the second parameter of the `strpos()` function is case-sensitive.
 
 ### Exploit
 ```
